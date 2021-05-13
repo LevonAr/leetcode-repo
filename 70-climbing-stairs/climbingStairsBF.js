@@ -9,5 +9,9 @@ function climbingStairsBF(n) {
   if (n == 1) {
     return 1;
   }
+
+  if (n == 2) {
+    return 2;
+  }
   return climbingStairsBF(n - 1) + climbingStairsBF(n - 2);
 }
