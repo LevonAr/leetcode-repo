@@ -2,7 +2,7 @@
 // To Solve: Leetcode 70: Climbing Stairs
 
 function climbingStairsBF(n) {
-  if (n == 0) {
+  if (n <= 0) {
     return 0;
   }
 
