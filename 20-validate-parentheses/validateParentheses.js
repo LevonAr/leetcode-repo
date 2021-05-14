@@ -1,3 +1,15 @@
+/**
+ * Created: 5/14/21
+ * To Solve: Leetcode 20: Validate Parentheses
+ * (Only Solution)
+ *
+ * Big O
+ * Time: O(n)
+ * Space: O(n)
+ *
+ * @param {string} string that only contains chars '(',')','{','}','[',']'
+ * @returns {boolean} depending on if valid or not
+ */
 function validateParenthese(string) {
   // Initialize stack as array
   let stack = [];
