@@ -12,7 +12,7 @@ function validateParenthese(string) {
   for (let i = 0; i < string.length; i++) {
     if (hashTable.has(string[i])) {
       let topElement = stack.length > 0 ? stack.pop() : "#";
-      if (string[i] !== topElement) {
+      if (topElement == hashTable.get(string[i])) {
         return false;
       }
     } else {
