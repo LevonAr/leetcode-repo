@@ -22,3 +22,11 @@ function bestTimeToBuyAndSellStock(prices) {
   }
   return maxProfit;
 }
+
+/*
+Notes: What we are actually doing is this: for every element, we are calculating the difference between that element and 
+the minimum of all the values before that element and we are updating the maximum profit if the difference thus found is 
+greater than the current maximum profit.
+
+Used Kadane's Algorithm
+*/
