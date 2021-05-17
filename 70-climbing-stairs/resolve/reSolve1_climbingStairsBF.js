@@ -1,6 +1,6 @@
 // Brute Force Solution
 // Big O
-// Space: O()?
+// Space: O(2^n)
 // Time:O(1)
 
 var climbStairs = function (n) {
