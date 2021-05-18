@@ -6,8 +6,8 @@
  * (My One Pass Solution)
  *
  * Big O
- * Time: O()
- * Space: O()
+ * Time: O(n)
+ * Space: O(1)
  *
  * @param {Array} prices
  * @returns {Number} maxProfit
