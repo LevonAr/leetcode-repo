@@ -1,3 +1,7 @@
+// Big O
+// Time: O(n)
+// Space: O(1)
+
 var maxProfit = function (prices) {
   let maxProfit = 0;
   let ownStock = false;
