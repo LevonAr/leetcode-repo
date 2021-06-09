@@ -1,7 +1,7 @@
 // Brute Force Solution
 // Big O
-// Time: O()
-// Space: O()
+// Time: O(n^2)
+// Space: O(n)
 var climbStairs = function (n) {
   if (n == 0) {
     return 0;
