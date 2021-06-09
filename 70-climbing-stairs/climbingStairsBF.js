@@ -1,7 +1,13 @@
 /**
  * Created: 5/12/21
  * To Solve: Leetcode 70: Climbing Stairs
+ * Solutions: [Brute Force Solution, Recursion with Memoization Solution]
+ *
  * (Brute Force Solution)
+ *
+ * Big O
+ * Time: O(2^n)
+ * Space: O(n)
  *
  * @param {number} n - Number of stairs to climb on.
  * @returns {number} - Number of ways to climb a staircase.
