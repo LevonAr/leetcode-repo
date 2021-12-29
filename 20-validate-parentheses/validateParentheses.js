@@ -41,3 +41,7 @@ function validateParenthese(string) {
   let returnValue = stack.length == 0 ? true : false;
   return returnValue;
 }
+
+/**
+ *
+ */
