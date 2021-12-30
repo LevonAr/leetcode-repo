@@ -8,12 +8,11 @@
 var twoSum = function (nums, target) {
   let hashMap = {};
   for (let i = 0; i < nums.length; i++) {
-    console.log("hashMap", hashMap);
     let supplement = target - nums[i];
-    if (hashMap[supplement]) {
+    if (supplement in hashMap == true) {
       return [hashMap[supplement], i];
     } else {
-      hashMap[supplement] = i;
+      hashMap[nums[i]] = i;
     }
   }
 };
