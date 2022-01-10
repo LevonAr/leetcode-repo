@@ -9,11 +9,10 @@ var isValid = function (s) {
     "}": "{",
   };
   const stack = [];
-  for (let i = 0; i < s.length; i++) {
+  for (let i = 0; i < s.length; s++) {
     if (s[i] in hashMap) {
-      console.log("sasd");
       const topElement = stack.pop();
-      if (hashMap[s[i]] == topElement) {
+      if (hashMap[s(i)] == topElement) {
         continue;
       } else {
         return false;
