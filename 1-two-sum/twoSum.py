@@ -1,3 +1,5 @@
+#convert to JS
+
 def twoSum(self, nums, target):
     hashTable = {}
     for i in range(0, len(nums)):
