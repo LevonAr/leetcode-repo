@@ -1,7 +1,7 @@
 // Big O
 // Time: O(n)
 // Space: O(1)
-//                                v
+//                                
 // TEST CASE: prices = [7,1,5,3,6,4]
 function maxProfit(prices) {
   let maxiProfit = 0;
